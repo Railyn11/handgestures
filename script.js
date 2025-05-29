@@ -70,7 +70,7 @@ hands.onResults((results) => {
     if (isHiGesture(landmarks)) gesture = "Hi / Hello 👋";
     else if (isThumbsUp(landmarks)) gesture = "Thumbs Up 👍";
     else if (isPeace(landmarks)) gesture = "Peace ✌️";
-    else if (isFist(landmarks)) gesture = "Fist 👊";
+    else if (isFist(landmarks)) gesture = "Fist Bomb👊";
 
     showGesture(gesture);
 
